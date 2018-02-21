@@ -6,5 +6,6 @@ install:
   - pip install -r https://github.com/Lasagne/Lasagne/blob/master/requirements.txt
   - pip install -r requirements.txt
   - pip install -r https://github.com/dnouri/nolearn/blob/master/requirements.txt
+  - pip install -r https://github.com/Theano/Theano/blob/master/requirement-rtd.txt
 # command to run tests
 script: pytest
