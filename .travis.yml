@@ -7,4 +7,4 @@ install:
   - pip install scipy
   - pip install -r requirements.txt 
 # command to run tests
-script: bundle exec thor build
+script: python convert.py --crop_size 128 --convert_directory data/train_tiny --extension tiff --directory data/train
